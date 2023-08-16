@@ -1,0 +1,15 @@
+{
+  "name": "dash4nt:userPortal",
+  "fields": [
+    {
+      "name": "dash4:category",
+      "selectorType": "DropdownTree",
+      "selectorOptions": [
+        {
+          "name": "nodes",
+          "value": "/sites/systemsite/categories"
+        }
+      ]
+    }
+  ]
+}

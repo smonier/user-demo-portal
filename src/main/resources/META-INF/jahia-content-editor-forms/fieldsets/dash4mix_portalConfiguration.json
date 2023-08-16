@@ -1,0 +1,15 @@
+{
+  "name": "dash4mix:portalConfiguration",
+  "fields": [
+    {
+      "name": "dash4:webappTheme",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "javascript"
+        }
+      ]
+    }
+  ]
+}
