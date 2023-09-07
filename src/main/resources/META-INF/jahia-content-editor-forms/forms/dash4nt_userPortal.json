@@ -1,0 +1,50 @@
+{
+  "nodeType": "dash4nt:userPortal",
+  "priority": 2.0,
+  "hasPreview": true,
+  "sections": [
+    {
+      "name": "content",
+      "labelKey": "label.engineTab.content",
+      "requiredPermission": "viewContentTab",
+      "expanded": true
+    },
+    {
+      "name": "listOrdering",
+      "labelKey": "label.engineTab.listOrdering",
+      "requiredPermission": "viewContentTab",
+      "expanded": true
+    },
+    {
+      "name":"webappConfiguration",
+      "labelKey": "label.engineTab.webappConfiguration@resources.jcontent-ui-extension",
+      "requiredPermission": "viewWebappConfigurationTab",
+      "expanded": true
+    },
+    {
+      "name": "classification",
+      "labelKey": "label.engineTab.classification",
+      "requiredPermission": "viewCategoriesTab"
+    },
+    {
+      "name": "metadata",
+      "labelKey": "label.engineTab.metadata",
+      "requiredPermission": "hidden"
+    },
+    {
+      "name": "layout",
+      "labelKey": "label.engineTab.layout",
+      "requiredPermission": "hidden"
+    },
+    {
+      "name": "options",
+      "labelKey": "label.engineTab.options",
+      "requiredPermission": "hidden"
+    },
+    {
+      "name": "seo",
+      "labelKey": "label.engineTab.seo",
+      "requiredPermission": "hidden"
+    }
+  ]
+}
