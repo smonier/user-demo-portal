@@ -25,6 +25,26 @@
       "name": "classification",
       "labelKey": "label.engineTab.classification",
       "requiredPermission": "viewCategoriesTab"
+    },
+    {
+      "name": "metadata",
+      "labelKey": "label.engineTab.metadata",
+      "requiredPermission": "hideTabs"
+    },
+    {
+      "name": "layout",
+      "labelKey": "label.engineTab.layout",
+      "requiredPermission": "hideTabs"
+    },
+    {
+      "name": "options",
+      "labelKey": "label.engineTab.options",
+      "requiredPermission": "hideTabs"
+    },
+    {
+      "name": "seo",
+      "labelKey": "label.engineTab.seo",
+      "requiredPermission": "hideTabs"
     }
   ]
 }
