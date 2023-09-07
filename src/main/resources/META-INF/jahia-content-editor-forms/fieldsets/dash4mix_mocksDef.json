@@ -1,0 +1,25 @@
+{
+  "name": "dash4mix:mocksDef",
+  "fields": [
+    {
+      "name": "dash4:products",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "javascript"
+        }
+      ]
+    },
+    {
+      "name": "dash4:chart",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "javascript"
+        }
+      ]
+    }
+  ]
+}

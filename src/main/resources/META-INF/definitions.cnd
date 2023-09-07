@@ -17,15 +17,28 @@
  itemtype = content
  - dash4:webappTheme (string) indexed=no
 
-[dash4mix:mocks] mixin
-extends = dash4nt:userPortal
+[dash4mix:mocksDef] mixin
 itemtype = content
  - dash4:products (string) indexed=no
  - dash4:chart (string) indexed=no
 
+[dash4mix:mocksReference] > jmix:dynamicFieldset mixin
+ extends = dash4mix:mocks
+ - dash4:mocks (weakreference,choicelist[nodes='$currentSite/contents/user-portal/mocks;dash4nt:mocks']) indexed=no < dash4nt:mocks
+
+[dash4mix:mocksDirect] > jmix:dynamicFieldset, dash4mix:mocksDef mixin
+ extends = dash4mix:mocks
+
+[dash4mix:mocks] mixin
+ extends = dash4nt:userPortal
+ itemtype = content
+ - dash4:mocksSource (string) indexed=no
+
+[dash4nt:mocks] > jnt:content, dash4mix:components, mix:title, dash4mix:mocksDef
+
 [dash4nt:userPortal] > jnt:content, jmix:mainResource, dash4mix:components, mix:title, dash4nt:portalStaticLabels
  - dash4:category (weakreference)
- - dash4:personalizedAds (weakreference, choicelist[nodes='$currentSite//*;wemmix:personalizedList'])
+ - dash4:personalizedAds (weakreference, choicelist[nodes='$currentSite/contents/user-portal;wemmix:personalizedList'])
 
 [dash4nt:portalAds] > jnt:content, jmix:mainResource, dash4mix:components
  - dash4:teaser (string)

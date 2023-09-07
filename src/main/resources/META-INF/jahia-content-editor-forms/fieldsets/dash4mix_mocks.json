@@ -1,25 +1,40 @@
 {
   "name": "dash4mix:mocks",
+  "description": "",
+  "dynamic": false,
   "fields": [
     {
-      "name": "dash4:products",
-      "selectorType": "CodeMirror",
-      "selectorOptions":[
+      "name": "dash4:mocksSource",
+      "selectorType": "Choicelist",
+      "valueConstraints": [
         {
-          "name": "mode",
-          "value" : "javascript"
-        }
-      ]
-    },
-    {
-      "name": "dash4:chart",
-      "selectorType": "CodeMirror",
-      "selectorOptions":[
+          "value": {
+            "type": "String",
+            "value": "reference"
+          },
+          "displayValue": "My mocks",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "dash4mix:mocksReference"
+            }
+          ]
+        },
         {
-          "name": "mode",
-          "value" : "javascript"
+          "value": {
+            "type": "String",
+            "value": "direct"
+          },
+          "displayValue": "Write your mocks",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "dash4mix:mocksDirect"
+            }
+          ]
         }
       ]
     }
   ]
 }
+
