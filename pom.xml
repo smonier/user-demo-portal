@@ -23,7 +23,7 @@
     </scm>
 
     <properties>
-        <jahia-depends>default,codemirror-editor,dam-selector,dropdown-tree-select,jcontent-ui-extension</jahia-depends>
+        <jahia-depends>default,codemirror-editor,dam-selector,dropdown-tree-select,jcontent-ui-extension,se-utils</jahia-depends>
         <jahia-static-resources>/css,/javascript,/icons,/images</jahia-static-resources>
     </properties>
 
