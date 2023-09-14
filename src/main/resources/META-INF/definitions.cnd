@@ -42,5 +42,5 @@
  - dash4:personalizedAds (weakreference, choicelist[nodes='$currentSite/contents/user-portal;wemmix:personalizedList'])
 
 [dash4nt:portalAds] > jnt:content, jmix:mainResource, dash4mix:components, seumix:linkTo
- - dash4:teaser (string,richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/demo-user-portal/javascript/ckeditor/config/addTeaser.js']) internationalized
+ - dash4:teaser (string,richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/demo-user-portal/javascript/ckeditor/config/adsTeaser.js']) internationalized
  - dash4:image (weakreference, picker[type='image']) mandatory
