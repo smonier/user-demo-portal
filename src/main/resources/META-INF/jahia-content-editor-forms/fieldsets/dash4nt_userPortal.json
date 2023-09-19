@@ -3,13 +3,7 @@
   "fields": [
     {
       "name": "dash4:category",
-      "selectorType": "DropdownTree",
-      "selectorOptions": [
-        {
-          "name": "nodes",
-          "value": "/sites/systemsite/categories"
-        }
-      ]
+      "selectorType": "DropdownTree"
     }
   ]
 }

@@ -39,8 +39,12 @@
 
 [dash4nt:userPortal] > jnt:content, jmix:mainResource, dash4mix:components, dash4mix:webappConfiguration, mix:title, dash4mix:portalStaticLabels
  - dash4:category (weakreference)
- - dash4:personalizedAds (weakreference, choicelist[nodes='$currentSite/contents/user-portal;wemmix:personalizedList'])
+ - dash4:personalizedAds (weakreference, choicelist[nodes='$currentSite/contents/user-portal//*;wemmix:personalizedList'])
 
 [dash4nt:portalAds] > jnt:content, jmix:mainResource, dash4mix:components, seumix:linkTo
- - dash4:teaser (string,richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/demo-user-portal/javascript/ckeditor/config/adsTeaser.js']) internationalized
+ - dash4:teaser (string,richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/demo-user-portal/javascript/ckeditor/config/adsTeaser.js']) primary internationalized
  - dash4:image (weakreference, picker[type='image']) mandatory
+
+[dash4nt:portalAdsPerso] > jnt:content, jmix:list, mix:title, dash4mix:components
+orderable
+ + * (dash4nt:portalAds)
