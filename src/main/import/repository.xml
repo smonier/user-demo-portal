@@ -84,7 +84,7 @@
                                        jcr:title="Car mocks"/>
                   </car-mocks>
                </mocks>
-               <ads j:contributeTypes="dash4nt:portalAds"
+               <ads j:contributeTypes="dash4nt:portalAdsPerso"
                     j:editableInContribution="true"
                     jcr:mixinTypes="jmix:contributeMode"
                     jcr:primaryType="jnt:contentFolder">

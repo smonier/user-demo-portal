@@ -20,6 +20,26 @@
           "value" : "javascript"
         }
       ]
+    },
+    {
+      "name": "dash4:leads",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "javascript"
+        }
+      ]
+    },
+    {
+      "name": "dash4:orders",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "javascript"
+        }
+      ]
     }
   ]
 }

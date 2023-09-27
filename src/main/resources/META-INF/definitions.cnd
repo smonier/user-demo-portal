@@ -11,16 +11,20 @@
 
 
 [dash4mix:portalStaticLabels] mixin
- itemtype = webappConfiguration
+// itemtype = webappConfiguration
+ itemtype = content
  - dash4:btnEditPreference (string) = resourceBundle('label.dash4_btnEditPreference') autocreated internationalized mandatory indexed=no
 
 [dash4mix:portalConfiguration] mixin
- itemtype = webappConfiguration
+// itemtype = webappConfiguration
+  itemtype = content
  - dash4:webappTheme (string) indexed=no
 
 [dash4mix:mocksDef] mixin
  - dash4:products (string) indexed=no
  - dash4:chart (string) indexed=no
+ - dash4:leads (string) indexed=no
+ - dash4:orders (string) indexed=no
 
 [dash4mix:mocksReference] > jmix:dynamicFieldset mixin
  extends = dash4mix:mocks
@@ -30,7 +34,8 @@
  extends = dash4mix:mocks
 
 [dash4mix:mocks] mixin
- itemtype = webappConfiguration
+// itemtype = webappConfiguration
+ itemtype = content
  - dash4:mocksSource (string) indexed=no
 
 [dash4mix:webappConfiguration] > dash4mix:mocks, dash4mix:portalConfiguration mixin

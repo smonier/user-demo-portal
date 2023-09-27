@@ -12,8 +12,8 @@ CKEDITOR.addTemplates(moduleName,
                 title:'Ads Teaser',
                 image:'ads-teaser.png',
                 description:'> HTML structure expected for Ads Teaser field',
-                html:'<h3 class="pt-5"><span>We Are Industrial Company</span></h3>\n' +
-                    '<p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>'
+                html:'<h3 class=""><span>We Are Industrial Company</span></h3>\n' +
+                    '<p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>'
             }
         ]
     });
