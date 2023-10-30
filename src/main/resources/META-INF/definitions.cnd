@@ -25,6 +25,7 @@
  - dash4:chart (string) indexed=no
  - dash4:leads (string) indexed=no
  - dash4:orders (string) indexed=no
+ - dash4:salesChart (string) indexed=no
 
 [dash4mix:mocksReference] > jmix:dynamicFieldset mixin
  extends = dash4mix:mocks
